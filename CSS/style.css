@@ -1,0 +1,112 @@
+body {
+    background-color: lightblue;
+    caret-color: blue;
+}
+
+h1,
+.order-sucsses-info {
+    color: black;
+    text-align: center;
+}
+
+.review-image {
+    width: 150px;
+    height: 150px;
+}
+
+.profile_image {
+    display: block;
+    margin: 0 auto;
+}
+
+.all_product_pagination {
+    background-color: lightblue;
+    height: 150px;
+    width: 350px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+input[type=radio],
+input[type=textarea],
+input[type=button],
+input[type=submit],
+input[type=reset],
+input[type=email],
+input[type=text],
+input[type=password],
+input[type=value] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+.container :hover {
+    background-color: darkcyan;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
